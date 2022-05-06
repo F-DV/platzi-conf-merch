@@ -42,3 +42,9 @@
 - Husky es una herramienta que nos permite ejecutar Git Hooks de forma más amigable y sencilla con los cuales vamos a garantizar que se corren las pruebas pertinentes en nuestro código y de esta forma no enviar un bug o inconsistencias al repositorio del proyecto.
 - npm install husky --save-dev
 - Configuracion de husky en el package.json
+
+## Integracion con Paypal
+- npm i react-paypal-button --save --legacy-peer-deps
+
+# NOTA
+- npm docs Nombre-paquete : para ir a la documentacion de cada paquete
