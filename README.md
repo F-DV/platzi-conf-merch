@@ -43,8 +43,16 @@
 - npm install husky --save-dev
 - Configuracion de husky en el package.json
 
+# Variables de Entorno para Seguridad
+- https://platzi.com/comentario/2065862/
+
 ## Integracion con Paypal
 - npm i react-paypal-button --save --legacy-peer-deps
 - Tarjeta de credito apra hacer pruebas: 4242 4242 4242 4242    
 # NOTA
 - npm docs Nombre-paquete : para ir a la documentacion de cada paquete
+
+## Google Maps
+- npm install @react-google-maps/api --save```
+- Las Apis de google generan pago devebos ir a google.development para crear cuenta y hacer uso de las Apis.
+- Alternativa a googleMaps para hacer pruebas , es gratis : https://react-leaflet.js.org/docs/start-setup/
