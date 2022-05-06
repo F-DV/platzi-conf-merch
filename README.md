@@ -45,6 +45,6 @@
 
 ## Integracion con Paypal
 - npm i react-paypal-button --save --legacy-peer-deps
-
+- Tarjeta de credito apra hacer pruebas: 4242 4242 4242 4242    
 # NOTA
 - npm docs Nombre-paquete : para ir a la documentacion de cada paquete
