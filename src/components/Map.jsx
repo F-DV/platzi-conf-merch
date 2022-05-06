@@ -1,5 +1,5 @@
 import React from 'react'
-import { GoogleMap, LoadScript,Maker } from '@react-google-maps/api';
+import { GoogleMap, LoadScript } from '@react-google-maps/api';
 const Map = ({data}) => {
     const mapStyles ={
         height: "50vh",

@@ -5,7 +5,7 @@ import { PayPalButton } from 'react-paypal-button';
 import { HandleSumTotal } from '../utils/HandleSumTotal';
 import { useNavigate } from 'react-router-dom';
 
-const Payments = () => {
+const Payment= () => {
   const {state, addNewOrder} = useContext(AppContext);
   const {cart} = state;
   let navigate = useNavigate();
@@ -38,7 +38,7 @@ const Payments = () => {
       <div className="Payment-content">
         <h3>Resumen del pedido:</h3>
         {cart.map(item => (
-          <div className="payment-item" key={item.name}>
+          <div className="payment-item" key={`key-${item.name}`}>
             <div className="payment-element">
               <h4>{item.title}</h4>
               <span>$ {item.price}</span>
@@ -63,4 +63,4 @@ const Payments = () => {
   );
 };
 
-export default Payments;
+export default Payment;
